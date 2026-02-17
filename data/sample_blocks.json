@@ -1,0 +1,36 @@
+[
+    {
+      "number": 1,
+      "transactions": [
+        {
+          "hash": "0xabc123",
+          "events": [
+            {
+              "Transfer": {
+                "from": "0xalice",
+                "to": "0xbob",
+                "amount": 100
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "transactions": [
+        {
+          "hash": "0xdef456",
+          "events": [
+            {
+              "Transfer": {
+                "from": "0xbob",
+                "to": "0xcharlie",
+                "amount": 50
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
